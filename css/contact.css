@@ -12,14 +12,12 @@ li{
 }
 
 div{
-  height: 500px;
   width: 600px;
-  background: black;
-  position: fixed;
-  top: 50%;
+  position: absolute;
+  top: 20%;
   left: 50%;
-  margin-top: -250px;
-  margin-left: -300px;
+  transform: translateY(-50%);
+  transform: translateX(-50%);
 }
 
 a{
@@ -49,10 +47,10 @@ h1{
 
 @media screen and (max-width:600px) {
   div{
-    width: 300px;
-    margin-left: -200px;
+    width: 90%;
+    left: 38%;
   }
   li{
-    font-size: 24px;
+    font-size: 25px;
   }
 }
