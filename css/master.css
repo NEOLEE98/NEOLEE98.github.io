@@ -1,9 +1,16 @@
 *{
   font-family: "Times New Roman",Times,serif;
+  color: white;
 }
 
 body{
   background-color: black;
+}
+
+footer{
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 
 h1{
@@ -14,7 +21,7 @@ h1{
 
 div{
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translateY(-50%);
   transform: translateX(-50%);
@@ -49,5 +56,12 @@ li a:hover{
 
 @media only screen and (max-width:600px) {
   h1{
-    font-size: 60px;
+    font-size: 58px;
+  }
+}
+
+@media only screen and (max-height:500px) {
+  div{
+    top: 20%;
+  }
 }
