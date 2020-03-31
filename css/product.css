@@ -2,6 +2,32 @@ body{
   background-color: black;
 }
 
+h1{
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  margin: 0;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column{
+  flex: 30%;
+  max-width: 33.33%;
+  padding: 0 4px;
+}
+
+.column img{
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+
 .button{
   text-decoration: none;
   display: inline-block;
@@ -14,4 +40,20 @@ body{
 .button:hover{
   background-color: white;
   color: black;
+}
+
+@media screen and (max-width:800px) {
+  .column{
+    flex: 50%;
+    max-width: 48%;
+  }
+
+@media screen and (max-width:600px) {
+  .column{
+    flex: 100%;
+    max-width: 100%;
+  }
+
+}
+
 }
