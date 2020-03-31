@@ -9,6 +9,7 @@ body{
   text-align: center;
   border: 2px solid white;
   border-radius: 15px;
+  color: white;
 }
 .button:hover{
   background-color: white;
