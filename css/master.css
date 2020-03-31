@@ -23,6 +23,7 @@ ul{
 }
 li{
   float: left;
+  user-select: none;
 }
 li a{
   display: block;
@@ -38,4 +39,10 @@ li a{
 li a:hover{
   background-color: white;
   color: black;
+}
+
+@media screen and (max-width:600px) {
+  h1{
+    font-size: 80px;
+  }
 }
